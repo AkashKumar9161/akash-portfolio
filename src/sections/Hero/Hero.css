@@ -1,0 +1,223 @@
+.hero-content{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:60px;
+
+}
+
+.hero-left{
+
+    flex:1;
+}
+
+.hero-right{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+}
+
+.hero-left h1{
+
+    font-size:60px;
+
+    margin:10px 0;
+}
+
+.hero-left h2{
+
+    font-size:32px;
+
+    margin-bottom:20px;
+}
+
+.hero-description{
+
+    max-width:600px;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:18px;
+
+    margin:35px 0;
+
+}
+
+.hero-social{
+
+    display:flex;
+
+    gap:16px;
+
+}
+
+.hero-social a{
+
+    text-decoration:none;
+}
+
+.profile-placeholder{
+
+    width:380px;
+
+    height:380px;
+
+    border-radius:50%;
+
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--secondary)
+    );
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    box-shadow:var(--shadow);
+
+}
+
+.hero-greeting{
+
+    font-size:1.1rem;
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+.hero-left h1{
+
+    font-size:4rem;
+
+    font-weight:700;
+
+    line-height:1.1;
+
+}
+
+.hero-left h2{
+
+    margin-top:10px;
+
+    color:var(--gray);
+
+}
+
+
+.profile-image{
+    width:380px;
+    height:380px;
+    border-radius:50%;
+    object-fit:cover;
+    box-shadow:var(--shadow);
+}
+
+
+@media (max-width:992px){
+
+.hero-content{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+}
+
+.hero-left{
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.profile-image{
+
+width:300px;
+
+height:300px;
+
+}
+
+.hero-left h1{
+
+font-size:3rem;
+
+}
+
+.hero-left h2{
+
+font-size:1.7rem;
+
+}
+
+}
+
+
+
+@media (max-width:576px){
+
+.hero-left h1{
+
+font-size:2.3rem;
+
+}
+
+.hero-left h2{
+
+font-size:1.3rem;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+width:100%;
+
+}
+
+.hero-buttons a{
+
+width:100%;
+
+}
+
+.profile-image{
+
+width:240px;
+
+height:240px;
+
+}
+
+}
