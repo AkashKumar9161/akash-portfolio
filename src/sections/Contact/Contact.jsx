@@ -18,7 +18,7 @@
 //     const formData = new FormData(event.target);
 
 //     // 👇 Paste your Web3Forms Access Key here
-//     formData.append("access_key", "3488bc0f-3465-4051-9d45-e0e7e4a46745");
+//     formData.append("access_key",  import.meta.env.VITE_WEB3FORMS_ACCESS_KEY);
 
 //     formData.append("subject", "🚀 New Portfolio Contact");
 
@@ -205,18 +205,26 @@ function Contact() {
     try {
       // 1. Send email to you
       await emailjs.send(
-        "service_vfbhb1m",
-        "template_5fkc1gq",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_ADMIN_TEMPLATE,
         templateParams,
-        "J1manuArApKPO_p2_"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        // "service_vfbhb1m",
+        // "template_5fkc1gq",
+        // templateParams,
+        // "J1manuArApKPO_p2_"
       );
 
       // 2. Send auto reply to user
       await emailjs.send(
-        "service_vfbhb1m",
-        "template_bmsnm2i",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_REPLY_TEMPLATE,
         templateParams,
-        "J1manuArApKPO_p2_"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+          // "service_vfbhb1m",
+          // "template_bmsnm2i",
+          // templateParams,
+          // "J1manuArApKPO_p2_"
       );
 
       setResult("✅ Thank you! Your message has been sent successfully.");
