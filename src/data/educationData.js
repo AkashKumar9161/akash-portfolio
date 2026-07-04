@@ -1,20 +1,19 @@
 const educationData = [
   {
     id: 1,
-    degree: "Bachelor of Computer Applications (BCA)",
-    institute: "Your College Name",
-    duration: "2022 - 2025",
-    description:
-      "Focused on Software Development, Database Management Systems, Computer Networks, Operating Systems and Programming."
+    degree: "Bachelor of Technology (B.Tech)",
+    institute: "Buddha Institute of Technology",
+    duration: "2020 - May 2024",
+    location: "Gorakhpur, Uttar Pradesh"
   },
 
   {
     id: 2,
     degree: "Higher Secondary (12th)",
-    institute: "Your School Name",
-    duration: "2021 - 2022",
+    institute: "Marwar Inter college",
+    duration: "2019 - 2020",
     description:
-      "Completed Higher Secondary with Computer Science."
+      "Completed Higher Secondary with PCM."
   }
 ];
 

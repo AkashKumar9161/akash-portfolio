@@ -1,35 +1,40 @@
 const experienceData = [
   {
     id: 1,
-    year: "2025 - Present",
+    year: "Apr 2024 - Present",
     role: "Python Backend Developer",
-    company: "Freelance",
+    company: "DigiQuest Consultancy Services Pvt. Ltd.",
     description:
-      "Building scalable backend applications using Django, DRF and FastAPI.",
+      "Developing and maintaining scalable backend applications using Python, Django, Flask, Django REST Framework, REST APIs, third-party integrations, AWS EC2 deployment, CI/CD and production support.",
     technologies: [
       "Python",
       "Django",
+      "Flask",
+      "Django REST Framework",
       "FastAPI",
       "MySQL",
       "PostgreSQL",
-      "AWS",
-      "Nginx"
+      "AWS EC2",
+      "CI/CD",
+      "Swagger/OpenAPI"
     ]
   },
 
   {
     id: 2,
-    year: "2024",
-    role: "Full Stack Developer",
-    company: "Personal Projects",
+    year: "Jul 2023 - Aug 2023",
+    role: "Full Stack Development & Machine Learning Intern",
+    company: "ShapeMySkills Private Limited",
     description:
-      "Developed Hospital Management System and Clinic Management System using React and Django.",
+      "Completed internship in Full Stack Development and Machine Learning. Worked on Python, HTML, CSS, database technologies, data preprocessing, feature engineering and ML workflows.",
     technologies: [
-      "React",
-      "Django",
-      "REST API",
-      "JWT",
-      "Git"
+      "Python",
+      "HTML",
+      "CSS",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "Scikit-Learn"
     ]
   }
 ];

@@ -7,7 +7,7 @@ const socialLinks = [
   },
   {
     icon: <FaLinkedin />,
-    url: "linkedin.com/in/akash-kumar-b9460023b",
+    url: "https://www.linkedin.com/in/akash-kumar-b9460023b",
   },
   {
     icon: <FaEnvelope />,

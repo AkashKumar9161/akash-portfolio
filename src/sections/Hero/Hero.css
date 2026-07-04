@@ -126,7 +126,7 @@ gap:60px;
 
     margin-top:10px;
 
-    color:var(--gray);
+    color:var(--text-light);
 
 }
 
@@ -219,5 +219,11 @@ width:240px;
 height:240px;
 
 }
+
+}
+
+.hero{
+
+padding-top:120px;
 
 }

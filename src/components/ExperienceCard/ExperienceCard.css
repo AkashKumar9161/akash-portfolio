@@ -1,6 +1,10 @@
 .experience-card{
 
-    background:white;
+    background:var(--card);
+
+    color:var(--text);
+
+    border:1px solid var(--border);
 
     padding:35px;
 
@@ -40,17 +44,21 @@
 
     margin-bottom:8px;
 
+    color:var(--text);
+
 }
 
 .experience-card h4{
 
-    color:var(--gray);
+    color:var(--text-light);
 
     margin-bottom:20px;
 
 }
 
 .experience-card p{
+
+    color:var(--text-light);
 
     line-height:1.8;
 
@@ -70,12 +78,28 @@
 
 .experience-tech span{
 
-    background:#eef4ff;
+    background:rgba(37,99,235,.12);
+
+    color:var(--text);
+
+    border:1px solid var(--border);
 
     padding:10px 18px;
 
     border-radius:40px;
 
     font-size:14px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.experience-tech span:hover{
+
+    background:var(--primary);
+
+    color:white;
 
 }

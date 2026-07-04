@@ -71,3 +71,68 @@ body{
     overflow-x:hidden;
 
 }
+
+body{
+    background:#ffffff;
+    color:#111827;
+    transition:.3s;
+}
+
+body[data-theme="dark"]{
+    background:#0f172a;
+    color:#f8fafc;
+}
+
+body[data-theme="dark"] .navbar{
+    background:#1e293b;
+}
+
+body[data-theme="dark"] .nav-links span{
+    color:white;
+}
+
+body[data-theme="dark"] .card{
+    background:#1e293b;
+}
+
+body[data-theme="dark"] .profile-placeholder{
+    border:2px solid #334155;
+}
+
+
+body{
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    transition:.3s;
+
+}
+
+.section{
+
+    background:var(--bg);
+
+}
+
+.navbar{
+
+    background:var(--card);
+
+}
+
+.skill-card,
+.project-card,
+.about-card,
+.education-card,
+.experience-card,
+.contact-card{
+
+    background:var(--card);
+
+    color:var(--text);
+
+    border:1px solid var(--border);
+
+}
